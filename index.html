@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#academica">Formación académica</a></li>
+                <li><a href="#habilidades">Habilidades Técnicas</a></li>
+                <li><a href="#idiomas">Idiomas</a></li>
+                <li><a href="#laboral">Experiencia laboral</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+
+        <div class="item" id="inicio">
+            <h2 class="nombre">Guillermo Agustin Correa</h2>
+            <img src="imagen/guille.jpg" class="imagen" alt="face photo">
+            <p class="edad"> 19 años</p>
+            <p class="edad"> [03/11/2003]</p>
+            <p class="localidad">Centenario, Neuquén</p>
+        </div>
+
+        <div class="item" id="sobremi">
+            <h3>Sobre mi</h3>
+            <div class="box1">
+                <p>Me interesa empezar mi camino profesional en ........... dado que en los últimos dos años vengo estudiando herramientas de ........... de manera autodidacta. Mi objetivo es conocer el ritmo de la industria en general para pronto volcarme en una rama especifica. Me entusiasma empezar a trabajar en proyectos creativos junto a un equipo del que pueda aprender.</p>
+             </div>
+            
+        </div>
+
+        <div class="item" id="academica">
+            <h3>Formación Académica</h3>
+            <div class="box2">
+                <div class="escuela"> 
+                    <div class="cuadro"><p class="titulo">Educación</p></div>
+                     <p class="infoescuela">-Bachiller en Ciencias Biologicas, Colegio Secundario Virgen de Lujan, 2021.</p>
+                     <p  class="animado">Promedio: 8.80</p>
+                     <p class="universidad">-Ingeniero Electricista, Universidad Nacional del Comahue, xxxx.</p>
+                     <p class="animado2">Promedio: xx</p>
+                </div>
+                <div class="cursos">
+                    <div class="cuadro"><p class="titulo">Cursos</p></div>
+                     <p class="curso">- Electricidad: Montado y mantenimiento de instalaciones, INAP</p>
+                     <p class="curso">-Introducción a la programación en Android con Kotlin, UTN. </p>
+                     <p class="curso">-Curso 3 </p>
+                     <p class="curso">-Curso 4 </p>
+                     <p class="curso">-Curso 5 </p>
+                </div>
+            </div>
+             
+                    
+        </div>
+
+        <div class="item" id="habilidades">
+            <h3>Habilidades Técnicas</h3>
+            <div class="box3">
+                <div class="habilidades">
+
+                    <!-- ejemplos -->
+
+                    <p>Electrónica de potencia</p>
+                    <div class="container1">
+                        <div class="skills electronica">90%</div>
+                    </div>
+                
+                    <p>Controladores Lógicos Programables</p>
+                    <div class="container1">
+                        <div class="skills controladores">80%</div>
+                    </div>
+                
+                    <p>AutoCAD</p>
+                    <div class="container1">
+                        <div class="skills autocad">80%</div>
+                    </div>
+                
+                
+                    <p>Diseño de Circuitos</p>
+                    <div class="container1">
+                        <div class="skills diseño">70%</div>
+                    </div>
+                
+                    <p>Control Industrial</p>
+                    <div class="container1">
+                        <div class="skills industrial">60%</div>
+                    </div>
+             
+           
+        </div>
+
+
+        <div class="item" id="idiomas">
+            <h3>Idiomas</h3>
+            <div class="box4">
+                <div>
+                    <img src="imagen/inglaterra.jpg" alt="Bandera de Inglaterra">
+                 </div>
+                <div> <p class="idiomas">B1 Preliminary,2020</p> </div>
+                
+                <div>
+                    <img src="imagen/francia.jpg" class="francia" alt="Bandera de Francia">
+                 </div>
+
+                <div> <p class="idiomas">Básico</p> </div>
+                
+                
+           </div>
+        </div>
+
+
+        <div class="item" id="laboral">
+            <h3>Experiencia laboral</h3>
+            <div class="box5"> 
+                  > <p class="laboral1">-Colaboración con ingenieros y clientes para abordar proyectos y productos de ingenieria futuros y existentes</p>
+                    <p class="laboral2">-Elaboración de informes con el registro diario de la evolución de los trabajos y proyectos</p>
+                    <p class="laboral3">-Experiencia 3</p>
+                    <p class="laboral3">-Experiencia 4</p>
+                    <p class="laboral3">-Experiencia 5</p> 
+                
+            </div>
+     </div>
+
+
+     <!-- Scroll JavaScript-->
+
+ <script src="js/main.js"></script>
+
+
+ <!-- contacto:formulario mail/wpp-->
+
+ <div class="item" id="contacto">
+     <h3>Contacto</h3>
+     <div class="container">
+         <form id="form" action="" class="form">
+           <h1 class="tag"><span>CONTACTAME</span></h1>
+           <label for="name">Nombre Completo <span>*</span></label>
+           <input name="name" required type="text" id="name" placeholder="Juan">
+           <label for="email">Correo electrónico <span>*</span></label>
+           <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+           <label for="message">Mensaje</label>
+           <textarea id="message" name="message"  cols="30" rows="10"></textarea>
+           <button type="submit" class="btn primary full">Enviar mensaje</button>
+         </form>
+   </div>
+
+   <!-- whatsapp
+ 
+   <a href="https://wa.me/987654321?text=Quiero%20realizar%20un%20proyecto%20web%20php" class="btn-wsp" target="_blank">
+     <i class="fa fa-whatsapp icono"></i> </a> -->
+  
+
+     <a href="mailto: pepe@gmail.com" id="mail"></a>
+
+
+   
+   <script>
+       const $form = document.querySelector('#form')
+       const $buttonMailto = document.querySelector('#mail')
+   
+       $form.addEventListener('submit', handleSubmit)
+   
+       function handleSubmit(event) {
+         event.preventDefault()
+         const form = new FormData(this)
+         $buttonMailto.setAttribute('href', `mailto:pepe@gmail.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+         $buttonMailto.click()
+       }
+     </script>
+   
+ 
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+       function sendEmail(){
+           Email.send({
+              Host : "smtp.gmail.com",
+              Username : "pepe@gmail.com",
+              Password : "",
+              To : 'pepe@gmail.com',
+              From : document.getElementbyId("email").value,
+              Subject : "New Contact Form Enquiry",
+              Body : "Name: "  + document.getElementById("name").value
+                           + "<br> Email " + document.getElementById("email").value
+                           + "<br> Message " + document.getElementById("message").value
+                    
+           }).then(
+           message => alert("Message Sent Succesfully")
+          );
+       }
+    </script>
+
+ 
+</main>
+
+
+</body>
+</html>

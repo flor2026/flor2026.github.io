@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: #00000f;
+  }
+
+  /** Barra de navegacion */
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    background: #00000f;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  a:hover {
+    background: #020225;
+    color: #f06543;
+  }
+
+  h2 {
+    background-color: #00000f;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+ 
+
+/** inicio */
+
+.item .nombre{
+    text-align: center;
+}
+
+.item .edad{
+    margin-top: 8px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+.item .localidad{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-bottom: 4%;
+    margin-top: 4%;
+    font-size: 20px;
+}
+
+.imagen {
+    
+    width: 150px;
+    height: 240px;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 44.2%;
+  
+}
+
+
+
+/* sobre mi */
+
+.item .box1{
+  width: 90%;
+  height: 480px;
+  font-size: 25px;
+  text-align:center;
+  margin-top: 150px;
+  margin-left: 45px;
+
+}
+
+
+
+
+
+
+
+ .item .box{
+       width: 90%;
+       height: 480px;
+       font-size: 25px;
+       text-align:center;
+       margin-top: 50px;
+       margin-left: 45px;
+     
+       
+
+}
+/* formacion academica */
+.box2{
+  width: 100%;
+  height: 600px;
+  
+ 
+  
+}
+
+.escuela{
+  padding: 10px;
+  border: rgb(255, 255, 255) 1px solid;
+  float: left;
+  width: 40%;
+  height: 400px;
+  background: rgba(17, 18, 58, 0.5);
+ 
+    margin-left:40px;
+    margin-top: 30px;
+    margin-right: 15px;
+    border-radius: 12px;
+    
+
+}
+
+.cuadro{
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: black 3px solid;
+  margin-left: -10px;
+  margin-right:25px;
+  background-color: #6f7c97;
+ 
+}
+
+.cuadro .titulo{ 
+  font-size: 40px;  
+  color: #080202;
+  font-weight: bold;
+  text-align: center;
+}
+
+.escuela .infoescuela{
+text-align: center;
+color: #e0e0ec;
+font-size: 30px;
+margin-top: 20px;
+}
+
+.escuela .universidad{
+  text-align: center;
+  color: #bfbfdb;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: -30px;
+
+}
+
+
+.cursos{ 
+  padding: 10px;
+  border: rgb(236, 228, 228) 1px solid;
+  float: right;
+  width: 40%;
+  height: 400px;
+  background-color: #E8E9EB;
+   margin-top: 30px;
+  margin-right: 40px;
+  border-radius: 12px;
+  background: rgba(17, 18, 58, 0.5)
+ 
+  }
+
+  .cursos .curso{text-align: center;
+    color: #cdcdd6;
+    font-size: 30px;
+    margin-top: 20px;
+    
+
+  }
+
+
+/*habilidades*/
+
+.box3{ 
+  width: 100%;
+  height: 700px;
+  
+ 
+}
+
+.habilidades{
+  width: 600px;
+  height:350px;
+  margin: auto;
+  margin-bottom: 70px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 70px;
+}
+
+.container1{
+ width: 100%;
+ background-color: #ddd;   
+ font-size: 20px;
+}
+
+.skills{
+ text-align: right;
+ padding: 10px;
+ color: white;
+ font-weight: bold;
+}
+
+.electronica{
+ background-color: #4169e1;
+ animation: fillelectronica 8s forwards;
+}
+
+.controladores{
+ background-color: #4682b4;
+ animation: fillcontroladores 8s forwards;
+}
+
+.autocad{
+ background-color: #5f9ea0;
+ animation: fillautocad 8s forwards;
+}
+
+.diseño{
+ background-color: #b0c4de;
+ animation: filldiseño 8s forwards;
+}
+
+.industrial{
+ background-color: #ADD8E6;
+ animation: fillindustrial 8s forwards;
+}
+
+
+
+@keyframes fillelectronica{
+ 0%{width: 0;}
+ 100%{width: 90%;}
+}
+
+@keyframes fillcontroladores{
+ 0%{width: 0;}
+ 100%{width: 80%;}
+}
+
+@keyframes fillautocad{
+ 0%{width: 0;}
+ 100%{width: 80%;}
+}
+
+@keyframes filldiseño{
+ 0%{width: 0;}
+ 100%{width: 70%;}
+}
+
+@keyframes fillindustrial{
+ 0%{width: 0;}
+ 100%{width: 60%;}
+}
+
+
+
+
+/*idiomas*/
+
+.box4{
+display: 300px;
+text-align: center;
+height: 500px;
+}
+
+img{
+  width: 5%; 
+  margin-left:30px;
+  margin-top:90px;
+ 
+
+}
+ 
+
+  
+.box4 .idiomas{ margin-left:30px;
+  font-size: 30px;
+  
+}
+ 
+/*Experiencia laboral*/
+.box5{   
+  width: 80%;
+  height: 455px;
+  background-color:  rgba(17, 18, 58, 0.5);;
+    margin-left:115px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: rgb(255, 255, 255) 1px solid;
+  
+}
+
+
+
+.laboral1{
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+
+}
+
+
+.laboral2{
+
+ 
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.laboral3{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+
+  h3 {
+    background: #02011a;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border: rgb(27, 5, 5) 3px solid;
+    color: #d8dadf;
+  
+  }
+
+  p {
+    color:#E8E9EB}
+  
+  main{
+      margin-top: 60px;
+  }
+  header {
+    width: 100%;
+    background: #00000f;
+    position: fixed;
+    top: 0;
+  }
+  .item{
+    scroll-margin-top: 8ex;
+  }
+  html{
+    scroll-behavior: smooth;
+
+  }
+
+  /**contacto*/
+ 
+  .container {
+
+    width: 100%;
+    height: 100vh;
+    background: #00000f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+form {
+background: #E8E9EB;
+display: flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 55%;
+max-width: 500px;
+border-radius: 10px;
+margin-top: 5px;
+margin-bottom: 75px;
+height: 400px;
+
+}
+
+.form .tag {
+    color: #313638;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+form input, form textarea {
+    border: 0px;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+
+}
+
+form button {
+
+    padding: 15px;
+    background: #f06543;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline:none;
+    cursor: pointer;
+    width: 150px;
+    margin:20px auto 0 ;
+    border-radius: 30px;
+
+}
+  
+  
+ 
+
+
+
+/* scroll javascript*/
+.animado{
+  color:#E8E9EB;
+  font-size: 30px;
+  margin-left: -400px; 
+  transition-duration: 3s;
+  text-align: justify;
+}
+
+.animado-active{
+  margin-left: 180px;
+  justify-content: center;   
+  margin-top: 8px;
+}
+
+.animado2{
+  color:#E8E9EB;
+  font-size: 30px;
+  margin-left: -400px; 
+  transition-duration: 3s;
+  text-align: justify;
+  margin-top: 60px;
+}
+
+.animado2-active{
+margin-left: 180px;
+justify-content: center;
+
+}
+
